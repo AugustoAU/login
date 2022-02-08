@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body{
+    overflow-y:hidden;
+    background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    min-height: 52vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: grey;
+    min-width: 250px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,);
+    border-radius: 8px;
+}
+
+
+
+
+
