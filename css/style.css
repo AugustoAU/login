@@ -5,8 +5,15 @@
     border: 0;
 }
 
+html,body{
+    
+    height: 100%;
+}
+
 
 body{
+    position: relative;
+    width: 100%;
     overflow-y:hidden;
     background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, hsla(197, 100%, 64%, 1) 100%);
     background-repeat: no-repeat;
@@ -19,6 +26,7 @@ body{
 
 main.container{
     background: grey;
+    position: relative;
     min-width: 250px;
     min-height: 40vh;
     padding: 2rem;
